@@ -44,4 +44,6 @@
     </ion-card-content>
   </ion-card>
 
+  <button *ngIf="person?.assessmentMessage" block ion-button (click)="saveYourData()">Save Your Data</button>
+
 </ion-content>
