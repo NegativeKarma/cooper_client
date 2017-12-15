@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { Angular2TokenService, A2tUiModule } from 'angular2-token';
+import { Angular2TokenService } from 'angular2-token';
 
 @Component({
   templateUrl: 'app.html'
